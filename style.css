@@ -10,10 +10,12 @@
     --Bright-blue: hsl(245, 75%, 52%);
     --Very-pale-blue: hsl(225, 100%, 98%);
     --Desaturated-blue: hsl(224, 23%, 55%);
+    
 }
 
 body{
     background-image: url("images/background-desktop.svg");
+    background-color: var(--Pale-blue);
     background-repeat: no-repeat;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -22,9 +24,13 @@ body{
     display:block;
     margin: auto;
     width: 25rem;
-    height: 30vh;
-    background-color: white;
-    
+    height: 63vh;
+    background-color: var(--Very-pale-blue);
+    border: 1px solid var(--Pale-blue);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 5rem;
+   
 }
 .hero-img{
     display: block;
@@ -93,12 +99,32 @@ body{
     font-weight: 700;
     padding:1rem;
     margin-top: 1rem;
+}
+.payment-button{
+    display:block;
+    margin: auto;
+    width: 19rem;
+    height:7vh;
+    border:1px solid var(--Bright-blue);
+    border-radius: 0.5rem;
+    background-color: var(--Bright-blue);
+    color:white;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.cancel-ordr-button{
+    display:block;
+    margin: auto;
+    width: 19rem;
+    height:7vh;
+    border:1px solid var(--Very-pale-blue);
+    border-radius: 0.5rem;
+    background-color: var(--Very-pale-blue);
+    color:var(--Desaturated-blue);
+    font-weight: 700;
+    font-size: 14px;
+    padding-top:1.5rem;
     
-    
-    
-    
-    
-    
-    
-    
+
 }
