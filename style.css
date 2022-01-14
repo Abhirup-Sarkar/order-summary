@@ -55,28 +55,50 @@ body{
     display:block;
     margin: auto;
     width: 19rem;
-    height:14vh;
+    height:15vh;
     background-color: var(--Very-pale-blue);
     
     border-radius: 1rem;
 }
 .small-container_img{
     display: block;
-    padding: 1rem;;
+    margin: 1rem 0.5rem 1rem 1rem;
     float:left;
 }
 .text1{
+    display: block;
     color:var(--dark-blue);
     font-weight: 700;
-    font-size:14px
+    font-size: 16px;
+    padding:1.2rem 0rem 0rem 5rem;
+    text-align: left;  
+   
+    
+    
 }
 .text2{
+    display:block;
     color:var(--Desaturated-blue);
     font-size:16px;
+    
+    padding:0.3rem 0rem 0rem 5rem;
+    
 }
-.text3{
+.change_link{
+    
     color:var(--Bright-blue);
     text-decoration: underline;
-    font-size: 16px;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    padding:1rem;
+    margin-top: 1rem;
+    
+    
+    
+    
+    
+    
+    
     
 }
