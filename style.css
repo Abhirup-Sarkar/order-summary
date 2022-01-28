@@ -30,6 +30,7 @@ body{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin-bottom: 5rem;
+    
    
 }
 .hero-img{
@@ -63,8 +64,8 @@ body{
     width: 19rem;
     height:15vh;
     background-color: var(--Very-pale-blue);
-    
     border-radius: 1rem;
+    
 }
 .small-container_img{
     display: block;
